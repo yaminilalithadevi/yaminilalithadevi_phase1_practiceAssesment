@@ -1,0 +1,22 @@
+package assignProj;
+
+public class Stringconversionusingbuffernbuilder {
+
+	public static void main(String[] args) {
+		StringBuffer s1 = new StringBuffer("Welcome to Java!");
+		s1.append("here is the coversion of strings using string buffer and string buider");
+
+		System.out.println(s1);
+
+		StringBuffer sb1 = new StringBuffer("Yashwanth!");
+		StringBuffer sbr = new StringBuffer("Yashwanth!");
+		sbr.reverse();
+
+		System.out.println("String to StringBuffer");
+		System.out.println(sbr);
+
+		StringBuilder sbl = new StringBuilder(sbr);
+		System.out.println("String to StringBuilder");
+		System.out.println(sbl);
+	}
+}
